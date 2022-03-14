@@ -5,10 +5,10 @@
 This project aims to analyze Apple stocks and predict the future stock movement.
 
 ## Concept used for Prediction
- - ###Time Series
+ - Time Series
    - ARIMA
    - SARIMA
- - ###Quantitative
+ - Quantitative
 #Description of Dataset
 
 | Date |     Open      |     High      |     Low      |     Close     |                          Adj Closing                           |    Volume    |
