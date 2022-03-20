@@ -9,7 +9,8 @@ This project aims to analyze Apple stocks and predict the future stock movement.
    - ARIMA
    - SARIMA
  - Quantitative
-#Description of Dataset
+ 
+# Description of Dataset
 
 | Date |     Open      |     High      |     Low      |     Close     |                          Adj Closing                           |    Volume    |
 |:----:|:-------------:|:-------------:|:------------:|:-------------:|:--------------------------------------------------------------:|:------------:|
