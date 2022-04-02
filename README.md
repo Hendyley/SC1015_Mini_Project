@@ -30,11 +30,10 @@ In order to attain our goal, these criteria have to be met first.
 
 ## Procedures
 Here are the documentation for the procedures for our project.
-1. [Data Preparation]()
-2. [Exploratory Anaylsis]()
-3. [Analytic Visualization]()
-4. [Algorithmic Optimization]()
-5. [Presentation]()
+1. [Data Preparation](Docs/data_prep.md)
+2. [Exploratory Anaylsis](Docs/exploring_analysis.md)
+3. [Analytic Visualization](Docs/visual.md)
+4. [Algorithmic Optimization](Docs/algo_opt.md)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -85,7 +84,12 @@ If faced any error, refer to [Troubleshooting Documentation for Jupyter](https:/
 
 These sources are used for the research of this project.
 
-* 
+* [Complete Guide to Time-Series Analysis](https://towardsdatascience.com/the-complete-guide-to-time-series-analysis-and-forecasting-70d476bfe775?gi=81cbcf49cf28)
+* [Guide for ARIMA forecasting](https://towardsdatascience.com/machine-learning-part-19-time-series-and-autoregressive-integrated-moving-average-model-arima-c1005347b0d7)
+* [Research for ARIMA-GARCH model for Stock Price Prediction](https://www.e3s-conferences.org/articles/e3sconf/pdf/2021/68/e3sconf_netid21_02030.pdf)
+* [What is ARCH and GARCH model?](https://machinelearningmastery.com/develop-arch-and-garch-models-for-time-series-forecasting-in-python/)
+* [Stock Prediction for LSTM](https://www.datacamp.com/community/tutorials/lstm-python-stock-market)
+* [Introduction to LSTM](https://machinelearningmastery.com/gentle-introduction-long-short-term-memory-networks-experts/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
