@@ -26,6 +26,15 @@ In order to attain our goal, these criteria have to be met first.
   3. Neural Network
 * Compare and test the accuracy of the model
 
+### Key Learning
+ * Linear Model
+  * AutoRegressive Integration Moving Average & Generalized AutoRegressive Conditional Heteroskedasticity (ARIMA-GARCH) Model
+* Classification
+  * Decision Tree Model
+* Neural Network
+  * Recurring Neural Network (RNN)
+    * Long Short Term Memory (LSTM)
+  * Natural Language Processing (NLP)    
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Procedures
