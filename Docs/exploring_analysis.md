@@ -6,7 +6,7 @@ The Exploratory Analysis would expand upon how we applied the ARIMA and LSTM int
 * Secondly, whether our model had any seasonality.
   * Seasonality refers to a regular and predictable pattern that repeats over the time series data which could negatively affect the regression model.
   * To do that, we used the Autocorrelation Function (ACF) to determined seasonality.
-* Once we determined the factors above, we had to find the Moving Average(MA) of our dataset.
+* Once we determined the factors above, we had to find the Moving Average(MA) of our model.
 * Next step was to apply differencing in order to make our model stationary.
 # How did we come to use ARIMA/LSTM (Moving Average)
 We needed a model which is capable of predicting future values based on past values, and ARIMA is capable of performing that as it makes use of lagged moving averages to smoothen the time series data.
