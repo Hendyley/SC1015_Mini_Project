@@ -1,5 +1,5 @@
 # Exploratory Analysis
-The Exploratory Analysis would expand upon 
+The Exploratory Analysis would expand upon how we applied the ARIMA and LSTM into out model.
 # Where did we start (Comparison of variables) (Correlation model)
 * Firstly, we need to know whether the dataset is stationary.
   * We used the Dickey-Fuller Test to determined stationarity.
@@ -9,7 +9,7 @@ The Exploratory Analysis would expand upon
   * To determined the trend that out dataset is heading towards.
 * Next step was to apply differencing to make the dataset stationary.
 # How did we come to use ARIMA/LSTM (Moving Average)
-* 
+We need a model which is capable of 
 # Concept of Moving Average
 Using Moving Average we are able to tell the trend in which our dataset is trending towards. As it captures the average change in our data over time.
 * An upwards trend shows an upswing in the price
