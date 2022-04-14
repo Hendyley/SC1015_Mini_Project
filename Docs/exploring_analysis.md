@@ -1,5 +1,5 @@
 # Exploratory Analysis
-The Exploratory Analysis would expand upon how we applied the ARIMA and LSTM into out model.
+The Exploratory Analysis would expand upon how we applied the ARIMA and LSTM into our time series model.
 # Where did we start (Comparison of variables) (Correlation model)
 * Firstly, we need to know whether our model is stationary, as it shows the constancy to the data over time.
   * To do that, we used the Dickey-Fuller Test to determined stationarity.
