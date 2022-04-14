@@ -31,15 +31,6 @@ x = response.text
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-##
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-##
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-##
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ## Appendix
 ### Sources & Tools Used to Extract Data
 * [Kaggle](https://www.kaggle.com/datasets/meetnagadia/apple-stock-price-from-19802021/code)
