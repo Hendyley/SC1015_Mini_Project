@@ -14,6 +14,7 @@ The Exploratory Analysis would expand upon
 Using Moving Average we are able to tell the trend in which our dataset is trending towards. As it captures the average change in our data over time.
 * An upwards trend shows an upswing in the price
 * A downwards trend shows a decline in the price
+
 Therefore, using Moving Average we are able to tell beforehand whether the stock price is trending upwards or downwards which would help in our prediction.
 # Explain the concept of use of neural network
 # Why did we choose ARIMA and LSTM (Advantages of using them over Moving Average)
