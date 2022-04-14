@@ -9,6 +9,7 @@ The Exploratory Analysis would expand upon how we applied the ARIMA and LSTM int
   * To do that, we used the Autocorrelation Function (ACF) to determined seasonality.
 * Once we determined the factors above, we had to find the Moving Average(MA) of our model.
 * Next step was to apply differencing in order to make our model stationary.
+* <a href="#arima">Continue</a>
 
 # Concept of Moving Average
 Using Moving Average we are able to tell the trend in which our dataset is trending towards. As it captures the average change in our data over time.
@@ -18,7 +19,10 @@ Using Moving Average we are able to tell the trend in which our dataset is trend
 Therefore, using Moving Average we are able to tell beforehand whether the stock price is trending upwards or downwards which would help in our prediction.
 
 # How did we come to use ARIMA/LSTM (Moving Average)
+<div id="arima"></div>
 We needed a model which is capable of predicting future values based on past values, and ARIMA is capable of performing that as it makes use of lagged moving averages to smoothen the time series data.
+
+
 
 # Why did we choose ARIMA and LSTM (Advantages of using them over Moving Average)
 # 
