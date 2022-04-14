@@ -1,15 +1,15 @@
 # Exploratory Analysis
 The Exploratory Analysis would expand upon how we applied the ARIMA and LSTM into out model.
 # Where did we start (Comparison of variables) (Correlation model)
-* Firstly, we need to know whether the dataset is stationary.
-  * We used the Dickey-Fuller Test to determined stationarity.
-* Secondly, whether the dataset had any seasonality.
-  * We used the Autocorrelation Function (ACF) to determined seasonality.
-* Once we determined the factors above, we had to find the moving average of our dataset.
-  * To determined the trend that out dataset is heading towards.
-* Next step was to apply differencing to make the dataset stationary.
+* Firstly, we need to know whether our model is stationary, as it shows the constancy to the data over time.
+  * To do that, we used the Dickey-Fuller Test to determined stationarity.
+* Secondly, whether our model had any seasonality.
+  * Seasonality refers to a regular and predictable pattern that repeats over the time series data which could negatively affect the regression model.
+  * To do that, we used the Autocorrelation Function (ACF) to determined seasonality.
+* Once we determined the factors above, we had to find the Moving Average(MA) of our dataset.
+* Next step was to apply differencing in order to make our model stationary.
 # How did we come to use ARIMA/LSTM (Moving Average)
-We need a model which is capable of 
+We needed a model which is capable of predicting future values based on past values, and ARIMA is capable of performing that as it makes use of lagged moving averages to smoothen the time series data.
 # Concept of Moving Average
 Using Moving Average we are able to tell the trend in which our dataset is trending towards. As it captures the average change in our data over time.
 * An upwards trend shows an upswing in the price
