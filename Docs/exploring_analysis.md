@@ -24,7 +24,9 @@ We needed a model which is capable of predicting future values based on past val
 ARIMA uses a set of parameters called p,d,q to make prediction based on the given model. 
 
 p - The number of lag observations in the model.
+
 d - The number of differences needed for stationarity.
+
 q - The number of lagged forecast errors in the prediction equation.
 
 <div id="continue"></div>
