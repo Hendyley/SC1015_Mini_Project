@@ -30,6 +30,7 @@ d - The number of differences needed for stationarity.
 q - The number of lagged forecast errors in the prediction equation.
 
 <div id="continue"></div>
+
 * Once the model is stationary, we can train our ARIMA model to find the best sets of parameters to fit into our model.
 * Applying the given p,d,q values into the ARIMA function, we are able to predict future values.
 * Now, we compare our predicted value against the test value.
