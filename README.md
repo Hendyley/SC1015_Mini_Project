@@ -1,7 +1,7 @@
 About
 ========================
 [![Bull vs Bear][project-screenshot]](https://www.captiveinternational.com/media/image/shutterstock_1695151366_na_studio.jpg)
-
+## Motivation
 With the abundance of trading platform such as [MooMoo](https://www.moomoo.com/sg/) and [Tiger broker](https://www.tigerbrokers.com.sg/), stock market 
 has been increasingly attractive to consumers. Hence, the stock market has become an interest of many, including us.
 
@@ -41,8 +41,7 @@ In order to attain our goal, these criteria have to be met first.
 Here are the documentation for the procedures for our project.
 1. [Data Preparation](Docs/data_prep.md)
 2. [Exploratory Anaylsis](Docs/exploring_analysis.md)
-3. [Analytic Visualization](Docs/visual.md)
-4. [Algorithmic Optimization](Docs/algo_opt.md)
+3. [Algorithmic Optimization](Docs/algo_opt.md)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

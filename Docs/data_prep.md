@@ -1,5 +1,7 @@
-#Preparation of Data
+# Preparation of Data
+
 For the preparation of data required, first we must determine the appropriate dataset that we can use our algorithm upon.
+
 ### Requirement for dataset
 * Huge Dataset (At least 10 years of data)
 * Appropriate sources (Open Source & Well-Trusted)
@@ -7,6 +9,23 @@ For the preparation of data required, first we must determine the appropriate da
 
 Therefore, the dataset that we have <a href="#description">sourced</a> have met the criteria of the dataset.
 <div id="top"></div>
+
+## Extracting of Data
+How we extract data
+* through HTTP Request, getting JSON data
+```python
+url = "https://google-news1.p.rapidapi.com/search"
+
+querystring = {"q":"Apple","country":"US","lang":"en","before":"2021-10-10","after":"2021-09-08"}
+
+headers = {
+	"X-RapidAPI-Host": "google-news1.p.rapidapi.com",
+	"X-RapidAPI-Key": "60ba6c2c8emsha8a15e53ec84acdp14aeb3jsncd684f9e15bd"
+}
+
+response = requests.request("GET", url, headers=headers, params=querystring)
+x = response.text
+```
 
 ## Cleaning of Data
 
@@ -34,13 +53,6 @@ Therefore, the dataset that we have <a href="#description">sourced</a> have met 
 |           Date           |           Open           |           High           |           Low           |          Close           |                          Adj Closing                           |            Volume            |
 |:------------------------:|:------------------------:|:------------------------:|:-----------------------:|:------------------------:|:--------------------------------------------------------------:|:----------------------------:|
 | Date of the stock market | Opening Price of the day | Highest Price of the day | Lowest Price of the day | Closing Price of the day | Adjusted Price for closing. (Used when there is a stock split) | Total Volume bought and sold |
-
-#### APPLE_NEWS
-
-|          Title           |     Link     |             Keyword              |        Creator         |                 Video URL                  |      Description       |          Content           |       PubDate       |           Full Description           |                 Image URL                 | Source ID |
-|:------------------------:|:------------:|:--------------------------------:|:----------------------:|:------------------------------------------:|:----------------------:|:--------------------------:|:-------------------:|:------------------------------------:|:-----------------------------------------:|:---------:|
-| Title of the new article | News article | Keywords used within the article | Creator of the article | A URL of any video used within the article | Summary of the article | Description of the content | Date of publication | Full Description of the news article | URL to any images used within the article | Publisher |
-###### Deprecated
 
 #### APPLENEWS_Prediction
 |  Published Date  |        Date         |           Title           |           Link           |
