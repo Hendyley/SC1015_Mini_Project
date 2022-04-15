@@ -5,17 +5,21 @@ For the preparation of data required, first we must determine the appropriate da
 ### Requirement for dataset
 * Huge Dataset (At least 10 years of data)
 * Appropriate sources (Open Source & Well-Trusted)
-* Relevant Variables to predict (Adjusted Closing/News) 
+* Relevant Variables to predict (Adjusted Closing/News)
+* Able to fit within the algorithm utilized (LSTM/ARIMA-GARCH/Classification)
 
 Therefore, the dataset that we have <a href="#description">sourced</a> have met the criteria of the dataset.
 <div id="top"></div>
 
 ## Extracting of Data
-How we extract News data
+
+### News Data
+The extraction of news data is:
 * through HTTP Request through RapidAPI to pull google news
 
 ![Rapid API](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjirIYmedE8VAGtlHrscc1nwyZlPNQBQpV8g&usqp=CAU)
 
+The implementation of the extraction of data
 ```python
 url = "https://google-news1.p.rapidapi.com/search"
 
@@ -39,9 +43,21 @@ data = json.loads(x)
 News_Test = pd.json_normalize(data["articles"])
 #News_Test.head()
 ```
+### Stock Price Data
 
+The extraction of the 40 years worth of data is pulled through Kaggle, and exported to an Excel sheet.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Cleaning of Data
+
+### News Data
+
+### Stock Price Data
+
+Due to the first 30 years having little fluctuation as compared to the recent years, 
+the training dataset has been cleaned to only include the more recent years.
+Hence, the dataset spans only the past decade, from 2013 to 2021.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -59,7 +75,7 @@ News_Test = pd.json_normalize(data["articles"])
 |:------------------------:|:------------------------:|:------------------------:|:-----------------------:|:------------------------:|:--------------------------------------------------------------:|:----------------------------:|
 | Date of the stock market | Opening Price of the day | Highest Price of the day | Lowest Price of the day | Closing Price of the day | Adjusted Price for closing. (Used when there is a stock split) | Total Volume bought and sold |
 
-#### APPLENEWS_Prediction
+#### APPLNEWS_Train.csv/APPLNEWS_Test.csv
 |  Published Date  |        Date         |           Title           |           Link           |
 |:----------------:|:-------------------:|:-------------------------:|:------------------------:|
 | Publication Date | Date of the article | Title of the news article | URL for the news article | 
