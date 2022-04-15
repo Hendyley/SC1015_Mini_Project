@@ -13,7 +13,9 @@ Therefore, the dataset that we have <a href="#description">sourced</a> have met 
 ## Extracting of Data
 How we extract News data
 * through HTTP Request through RapidAPI to pull google news
+
 ![Rapid API](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjirIYmedE8VAGtlHrscc1nwyZlPNQBQpV8g&usqp=CAU)
+
 ```python
 url = "https://google-news1.p.rapidapi.com/search"
 
