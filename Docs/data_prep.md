@@ -28,6 +28,16 @@ response = requests.request("GET", url, headers=headers, params=querystring)
 x = response.text
 ```
 
+The output will be in Json Format.
+But we can change it to dataframe format.
+
+```python
+data = json.loads(x)
+News_Test = pd.json_normalize(data["articles"])
+#News_Test.head()
+```
+
+
 ## Cleaning of Data
 
 <p align="right">(<a href="#top">back to top</a>)</p>
