@@ -21,13 +21,13 @@ the accuracy of the model.
 In order to attain our goal, these criteria have to be met first.
 * Select suitable variables to predict the movement of the stock price.
 * Select suitable ML concepts to best predict the movement. 
-  1. Linear Model
+  1. Time Series
   2. Classification
   3. Neural Network
 * Compare and test the accuracy of the model
 
 ### Key Learning
- * Linear Model
+ * Time Series
   * AutoRegressive Integration Moving Average & Generalized AutoRegressive Conditional Heteroskedasticity (ARIMA-GARCH) Model
 * Classification
   * Decision Tree Model
