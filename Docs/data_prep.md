@@ -5,14 +5,15 @@ For the preparation of data required, first we must determine the appropriate da
 ### Requirement for dataset
 * Huge Dataset (At least 10 years of data)
 * Appropriate sources (Open Source & Well-Trusted)
-* Relevant Variables to predict (Adjusted Closing/News)
+* Relevant Variables to predict (Adjusted Closing/News) 
 
 Therefore, the dataset that we have <a href="#description">sourced</a> have met the criteria of the dataset.
 <div id="top"></div>
 
 ## Extracting of Data
-How we extract data
-* through HTTP Request, getting JSON data
+How we extract News data
+* through HTTP Request through RapidAPI to pull google news
+* ![Rapid API](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjirIYmedE8VAGtlHrscc1nwyZlPNQBQpV8g&usqp=CAU)
 ```python
 url = "https://google-news1.p.rapidapi.com/search"
 
