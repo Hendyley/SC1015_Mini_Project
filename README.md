@@ -2,10 +2,16 @@ About
 ========================
 [![Bull vs Bear][project-screenshot]](https://www.captiveinternational.com/media/image/shutterstock_1695151366_na_studio.jpg)
 ## Motivation
-With the abundance of trading platform such as [MooMoo](https://www.moomoo.com/sg/) and [Tiger broker](https://www.tigerbrokers.com.sg/), stock market 
-has been increasingly attractive to consumers. Hence, the stock market has become an interest of many, including us.
+Recently, there has been a increase in the interest in stock market, with the abundance of trading platform such as [MooMoo](https://www.moomoo.com/sg/) and [Tiger broker](https://www.tigerbrokers.com.sg/), stock market 
+has been increasingly attractive to consumers. This has lead to a boom in the number of retail investors, causing the sudden fluctuation and movement of several stocks such as [Gamestop ($GME)](https://finance.yahoo.com/quote/GME/) [AMC Entertainment Industry($AMC)](https://finance.yahoo.com/quote/AMC?p=AMC&.tsrc=fin-srch) and even [Tesla($TSLA)](https://finance.yahoo.com/quote/TSLA?p=TSLA&.tsrc=fin-srch). 
+In addition of a ever-decreasing bank return interest rate, zero interest rate for the entry of investing and high return rate for investment of stock, it have captured the attention of the public.
 
-Therefore, this project aims to predict future movement of a stock by analyzing history of the stock.
+### Problem Definition
+
+Therefore, it seems like the inclusion of AI and Big Data in the Finance industry is upcoming and rising. With many interest in the stock market, it seems inevitable that the Financial sector will require for the analysis of stock movement. 
+Hence, this project aims to predict future movement of a stock through some factors such as:
+ * Past data of stock
+ * News
 
 We have chosen Apple stock (**AAPL**) as a sample to test our method for analyzing and 
 predicting the movement of the market. 
@@ -87,6 +93,10 @@ If faced any error, refer to [Troubleshooting documents for PIP & Python](https:
 If faced any error, refer to [Troubleshooting Documentation for Jupyter](https://jupyter-notebook.readthedocs.io/en/stable/troubleshooting.html)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+# Conclusion
+
+In this project, we have come to the conclusion that our approach to the movement of stocks is too naive, only capable to predict the movement with little accuracy. However, it still can be further improved with additional knowledge of ML and Neural Network.
+
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
@@ -98,6 +108,14 @@ These sources are used for the research of this project.
 * [What is ARCH and GARCH model?](https://machinelearningmastery.com/develop-arch-and-garch-models-for-time-series-forecasting-in-python/)
 * [Stock Prediction for LSTM](https://www.datacamp.com/community/tutorials/lstm-python-stock-market)
 * [Introduction to LSTM](https://machinelearningmastery.com/gentle-introduction-long-short-term-memory-networks-experts/)
+* [Sentimal Analysis using Vader](https://towardsdatascience.com/sentimental-analysis-using-vader-a3415fef7664#:%7E:text=VADER%20)
+* 
+
+### Usage of Third-Party Application
+* [RapidAPI Search](https://rapidapi.com/newscatcher-api-newscatcher-api-default/api/google-news)
+* [VADER](https://github.com/cjhutto/vaderSentiment)
+* [Kaggle](https://www.kaggle.com/datasets/meetnagadia/apple-stock-price-from-19802021)
+* [Natural Langauge Toolkit (NLTK)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8053016/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
