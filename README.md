@@ -3,7 +3,7 @@ About
 [![Bull vs Bear][project-screenshot]](https://www.captiveinternational.com/media/image/shutterstock_1695151366_na_studio.jpg)
 ## Motivation
 Recently, there has been a increase in the interest in stock market, with the abundance of trading platform such as [MooMoo](https://www.moomoo.com/sg/) and [Tiger broker](https://www.tigerbrokers.com.sg/), stock market 
-has been increasingly attractive to consumers. This has lead to a boom in the number of retail investors, causing the sudden fluctuation and movement of several stocks such as [Gamestop ($GME)](https://finance.yahoo.com/quote/GME/) [AMC Entertainment Industry($AMC)](https://finance.yahoo.com/quote/AMC?p=AMC&.tsrc=fin-srch) and even [Tesla($TSLA)](https://finance.yahoo.com/quote/TSLA?p=TSLA&.tsrc=fin-srch). 
+has been increasingly attractive to consumers. This has lead to a boom in the number of retail investors, causing the sudden fluctuation and movement of several stocks such as [Gamestop ($GME)](https://finance.yahoo.com/quote/GME/),[AMC Entertainment Industry($AMC)](https://finance.yahoo.com/quote/AMC?p=AMC&.tsrc=fin-srch) and even [Tesla($TSLA)](https://finance.yahoo.com/quote/TSLA?p=TSLA&.tsrc=fin-srch). 
 In addition of a ever-decreasing bank return interest rate, zero interest rate for the entry of investing and high return rate for investment of stock, it have captured the attention of the public.
 
 ### Problem Definition
@@ -95,7 +95,7 @@ If faced any error, refer to [Troubleshooting Documentation for Jupyter](https:/
 
 # Conclusion
 
-In this project, we have come to the conclusion that our approach to the movement of stocks is too naive, only capable to predict the movement with little accuracy. However, it still can be further improved with additional knowledge of ML and Neural Network.
+In this project, we have come to the conclusion that our approach to the movement of stocks is too naive, only capable to predict the movement with little accuracy. However, it still can be further improved with additional knowledge of ML and Neural Network.<br/>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
