@@ -15,11 +15,11 @@ Therefore, the dataset that we have <a href="#description">sourced</a> have met 
 
 ### News Data
 The extraction of news data is:
-* through HTTP Request through RapidAPI to pull google news
+* through HTTP Request through RapidAPI
 
 ![Rapid API](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjirIYmedE8VAGtlHrscc1nwyZlPNQBQpV8g&usqp=CAU)
 
-The implementation of the extraction of data
+Implementation:
 ```python
 url = "https://google-news1.p.rapidapi.com/search"
 
@@ -34,9 +34,12 @@ response = requests.request("GET", url, headers=headers, params=querystring)
 x = response.text
 ```
 
-The output will be in Json Format.
+As the data extracted from HTTP Request will be an unstructured data, under the format of JSON, 
+it will be required to be converted into Excel.
 
-But we can change it to dataframe format.
+Therefore, by normalizing the JSON, it can be converted into Excel easier.
+
+The implementation for the extraction is as shown below.
 
 ```python
 data = json.loads(x)
@@ -45,7 +48,7 @@ News_Test = pd.json_normalize(data["articles"])
 ```
 ### Stock Price Data
 
-The extraction of the 40 years worth of data is pulled through Kaggle, and exported to an Excel sheet.
+The extraction of 40 years worth of stock price data is from [Kaggle](https://www.kaggle.com/datasets/meetnagadia/apple-stock-price-from-19802021/code).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -53,11 +56,27 @@ The extraction of the 40 years worth of data is pulled through Kaggle, and expor
 
 ### News Data
 
+In order to clean the data for news, we have selected few keywords 
+that are being used to filter through the data.
+
+Implementation:
+```python
+news_Train = news_Train[news_Train['title'].str.contains('apple|iphone|ipad', case=False, na=False,regex=True)]
+news_Train = news_Train.drop(columns=['published_date'])
+```
+
+By filtering these data, we are able to have most news that are relevant to the 
+products Apple is selling and drop any irrelevant news.
+
 ### Stock Price Data
 
-Due to the first 30 years having little fluctuation as compared to the recent years, 
-the training dataset has been cleaned to only include the more recent years.
-Hence, the dataset spans only the past decade, from 2013 to 2021.
+As the earlier years of data have very little fluctuation and price change, to clean the data,
+we have filtered the data to recent 10 years worth of data.
+
+Implementation:
+```python
+train = train.loc[lambda x : x.index > dt.datetime(2012,12,31)]
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

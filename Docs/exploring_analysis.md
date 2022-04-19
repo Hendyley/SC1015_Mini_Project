@@ -1,15 +1,8 @@
 # Exploratory Analysis
 The Exploratory Analysis would expand upon how we applied the ARIMA into our time series model.
 
-# Where did we start (Comparison of variables) (Correlation model)
-* Firstly, we need to know whether our model is stationary, as it shows the constancy to the data over time.
-  * To do that, we used the Dickey-Fuller Test to determined stationarity.
-* Secondly, whether our model had any seasonality.
-  * Seasonality refers to a regular and predictable pattern that repeats over the time series data which could negatively affect the regression model.
-  * To do that, we used the Autocorrelation Function (ACF) to determined seasonality. **(Nid to explain abit more abt ACF and seasonality --> Lag time and graph of ACF)**
-* Once we determined the factors above, we had to find the Moving Average(MA) of our model.
-* Next step was to apply differencing in order to make our model stationary.
-* <a href="#continue">Continue</a>
+# Where did we start
+
 
 # Concept of Moving Average
 Using Moving Average we are able to tell the trend in which our dataset is trending towards. As it captures the average change in our data over time.
@@ -19,24 +12,8 @@ Using Moving Average we are able to tell the trend in which our dataset is trend
 Therefore, using Moving Average we are able to tell beforehand whether the stock price is trending upwards or downwards which would help in our prediction.
 
 # How did we come to use ARIMA
-We needed a model which is capable of predicting future values based on past values, and ARIMA is capable of performing that as it makes use of lagged moving averages to smoothen the time series data.
 
-ARIMA uses a set of parameters called p,d,q to make prediction based on the given model. 
-
-p - The number of lag observations in the model.
-
-d - The number of differences needed for stationarity.
-
-q - The number of lagged forecast errors in the prediction equation.
-
-<div id="continue"></div>
-
-* Continuing on, once our model is stationary.
-* We can train many ARIMA models to find the best sets of parameters(p,d,q) to fit into our model.
-* Applying the given p,d,q values into the ARIMA function, we are able to predict future values.
-* The final step left is to compare our predicted value against the test value.
-
-# Why did we choose ARIMA (Advantages of using them over Moving Average)
+# Why did we choose ARIMA 
 # 
 (Nid segue to algorithm optimization --> use of ARIMA + GARCH)
 (Best to add some links to [Moving Average Notebook](../Exploratory/MovingAverage.ipynb) & [ARIMAGARCH Notebook](../Analysis/ARIMA-GARCH/ARIMAGARCHPrediction.ipynb))
