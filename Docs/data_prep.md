@@ -6,11 +6,10 @@ For the preparation of data required, first we must determine the appropriate da
 * Huge Dataset (At least 10 years of data)
 * Appropriate sources (Open Source & Well-Trusted)
 * Relevant Variables to predict (Adjusted Closing/News)
-* Able to fit within the algorithm utilized (LSTM/ARIMA-GARCH/Classification)
+* Type of Data (Time Series)
 
 Therefore, the dataset that we have <a href="#description">sourced</a> have met the criteria of the dataset.
 <div id="top"></div>
-
 ## Extracting of Data
 
 ### News Data
