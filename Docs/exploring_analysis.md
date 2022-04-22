@@ -51,11 +51,12 @@ Using Moving Average we are able to tell the trend in which our dataset is trend
 The ability to identify the trend is important for the data as it gives a rough gauge for the future movement of the stock.
 [![MovingAverage.png](../Images/MovingAverage.png)](../Exploratory/MovingAverage.ipynb)
 
-As seen above, it shows the movement of the price, an upwards trend leading to an easier prediction of an increasing stock price.
+Using a simple calculation, getting the average of a **selected period** (90 days), it is able to identify the general movement
+and trend of the stock.
 
 However, due to its simplicity and the inability to take seasonality and residual into consideration,
-it will decrease the accuracy of the prediction. Even with a variating weight, giving more emphasis
-on the more recent observation, it is still not very accurate.
+it decreases the accuracy of the prediction. Even with a more complex calculation, a variating weight, giving
+more emphasis on the more recent observation, it is still not very accurate at forecasting.
 
 |              EMA              |                  Price Movement                   |
 |:-----------------------------:|:-------------------------------------------------:|
@@ -63,8 +64,26 @@ on the more recent observation, it is still not very accurate.
 
 # How did we come to use ARIMA
 
-# Why did we choose ARIMA 
-# 
+To increase the accuracy of the time series forecasting, all the factors of time series must be taken into consideration,
+putting equal emphasis on the **trend,seasonality and residual**.
+
+Therefore, ARIMA fits the description of that model, forecasting the movement with the historical data from the
+time series.
+
+## What is ARIMA
+
+ARIMA is a stochastic analytical model that uses time series data to forecast future trends based on
+its past performance.
+
+Categorized into three primary components:
+ * AutoRegression (AR): a model that shows changing variable that regresses on its prior values
+ * Integrated (I): The difference of raw observation to convert the graph into stationary
+ * Moving Average (MA): The error margin from a moving average model
+
+
+## Disadvantages of ARIMA
+
+
 
 (Nid segue to algorithm optimization --> use of ARIMA + GARCH)
 (Best to add some links to [Moving Average Notebook](../Exploratory/MovingAverage.ipynb) & [ARIMAGARCH Notebook](../Analysis/ARIMA-GARCH/ARIMAGARCHPrediction.ipynb))

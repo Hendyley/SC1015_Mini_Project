@@ -55,6 +55,7 @@ Here are the documentation for the procedures for our project.
 1. [Data Preparation](Docs/data_prep.md)
 2. [Exploratory Anaylsis](Docs/exploring_analysis.md)
 3. [Algorithmic Optimization](Docs/algo_opt.md)
+4. [Conclusion](Docs/conclusion.md)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -100,14 +101,6 @@ If faced any error, refer to [Troubleshooting documents for PIP & Python](https:
 If faced any error, refer to [Troubleshooting Documentation for Jupyter](https://jupyter-notebook.readthedocs.io/en/stable/troubleshooting.html)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-# Conclusion
-
-In this project, we have come to the conclusion that our approach to the movement of stocks is too naive, only capable to predict the movement with little accuracy. 
-
-However, it still can be further improved with additional knowledge of ML and Neural Network.<br/>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
@@ -118,8 +111,10 @@ These sources are used for the research of this project.
 * [Research for ARIMA-GARCH model for Stock Price Prediction](https://www.e3s-conferences.org/articles/e3sconf/pdf/2021/68/e3sconf_netid21_02030.pdf)
 * [What is ARCH and GARCH model?](https://machinelearningmastery.com/develop-arch-and-garch-models-for-time-series-forecasting-in-python/)
 * [Stock Prediction for LSTM](https://www.datacamp.com/community/tutorials/lstm-python-stock-market)
+* [Time Series Decomposition](https://towardsdatascience.com/time-series-from-scratch-decomposing-time-series-data-7b7ad0c30fe7)
 * [Introduction to LSTM](https://machinelearningmastery.com/gentle-introduction-long-short-term-memory-networks-experts/)
-* [Sentimal Analysis using Vader](https://towardsdatascience.com/sentimental-analysis-using-vader-a3415fef7664#:%7E:text=VADER%20)
+* [Sentimal Analysis using Vader](https://towardsdatascience.com/sentimental-analysis-using-vader-a3415fef7664#:%7E:text=VADER%20).
+* [ARIMA Definition](https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-arima.asp)
 
 ### Usage of Third-Party Application
 * [RapidAPI Search](https://rapidapi.com/newscatcher-api-newscatcher-api-default/api/google-news)
