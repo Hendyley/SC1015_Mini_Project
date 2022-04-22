@@ -10,6 +10,7 @@ For the preparation of data required, first we must determine the appropriate da
 
 Therefore, the dataset that we have <a href="#description">sourced</a> have met the criteria of the dataset.
 <div id="top"></div>
+
 ## Extracting of Data
 
 ### News Data
@@ -33,7 +34,9 @@ response = requests.request("GET", url, headers=headers, params=querystring)
 x = response.text
 ```
 
-The documentation for the generation of key is [here](https://docs.rapidapi.com/docs/keys)
+The documentation for the generation of key is [here](https://docs.rapidapi.com/docs/keys).
+
+
 As the data extracted from HTTP Request will be an unstructured data, under the format of JSON, 
 it will be required to be converted into Excel.
 
@@ -46,12 +49,14 @@ data = json.loads(x)
 News_Test = pd.json_normalize(data["articles"])
 #News_Test.head()
 ```
+---
 ### Stock Price Data
 
 The extraction of 40 years worth of stock price data is from [Kaggle](https://www.kaggle.com/datasets/meetnagadia/apple-stock-price-from-19802021/code).
-
+![DataExtraction.png](../Images/DataExtraction.png)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+---
 ## Cleaning of Data
 
 ### News Data
@@ -67,6 +72,7 @@ news_Train = news_Train.drop(columns=['published_date'])
 
 By filtering these data, we are able to have most news that are relevant to the 
 products Apple is selling and drop any irrelevant news.
+---
 
 ### Stock Price Data
 
@@ -80,8 +86,16 @@ train = train.loc[lambda x : x.index > dt.datetime(2012,12,31)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Appendix
-### Sources & Tools Used to Extract Data
+# Preparation for Algorithm
+
+After the preparation of data, we can now consider the algorithms that can be used to model the data.
+
+For Further Explanation, it can be continued in [Exploring Analysis](exploring_analysis.md).
+
+---
+
+# Appendix
+## Sources & Tools Used to Extract Data
 * [Kaggle](https://www.kaggle.com/datasets/meetnagadia/apple-stock-price-from-19802021/code)
 * [Rapid API](https://rapidapi.com/newscatcher-api-newscatcher-api-default/api/google-news)
 * [Yahoo Finance API](https://pandas-datareader.readthedocs.io/en/latest/)

@@ -1,5 +1,4 @@
 # Exploratory Analysis
-
 ## Analysis of Data Type
 
 Before finding the right model and concept to be applied to this project, it is important to 
@@ -43,6 +42,8 @@ the forecasting concept, with the main focus upon the trend of time series.
 
 Hence, **Moving Average** was chosen as our basis for the rest of the time series analysis model after.  
 
+---
+
 # General Concept of Moving Average
 Using Moving Average we are able to tell the trend in which our dataset is trending towards. As it captures the average change in our data over time.
 * An upwards trend shows an upswing in the price
@@ -80,10 +81,27 @@ Categorized into three primary components:
  * Integrated (I): The difference of raw observation to convert the graph into stationary
  * Moving Average (MA): The error margin from a moving average model
 
+![ARIMADiagnostic.png](../Images/ARIMADiagnostic.png)
 
-## Disadvantages of ARIMA
+By finding the right parameters for ARIMA, it will create the most optimal fit of the model into our dataset. As
+seen above, the diagnostics of the model shows the factors which ARIMA is based upon. 
 
+With **quantile-quantile** (Q-Q) graph, it is able to find the trend by finding the distribution of the observations
+and getting the average.
 
+With the **auto-correlation** (ACF) graph, it is able to check for the seasonality of the graph, searching for a pattern
+of fluctuation in correlation with time.
 
-(Nid segue to algorithm optimization --> use of ARIMA + GARCH)
-(Best to add some links to [Moving Average Notebook](../Exploratory/MovingAverage.ipynb) & [ARIMAGARCH Notebook](../Analysis/ARIMA-GARCH/ARIMAGARCHPrediction.ipynb))
+With the **standardized residual** graph, it is able to check the margin error and the range limit.
+
+## Limitation of ARIMA
+
+As there is obvious "clustering" phenomenon in the fluctuation, with variating fluctuation at period of times,
+there is a high probability of heteroskedasticity in the error terms. However, ARIMA model is unable to model upon the
+variance in time series, unable to predict accurately the volatility of the stock and not giving an accurate representation
+of the range the price can fall into.
+![StandardizedResidual.png](../Images/StandardizedResidual.png)
+
+Therefore, to have a higher accuracy for the stock prediction, it is necessary to optimize ARIMA with an additional model stacked on top of itself.
+
+For Further explanation, it will be continued in [Algorithmic Optimization](algo_opt.md).

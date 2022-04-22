@@ -113,8 +113,12 @@ These sources are used for the research of this project.
 * [Stock Prediction for LSTM](https://www.datacamp.com/community/tutorials/lstm-python-stock-market)
 * [Time Series Decomposition](https://towardsdatascience.com/time-series-from-scratch-decomposing-time-series-data-7b7ad0c30fe7)
 * [Introduction to LSTM](https://machinelearningmastery.com/gentle-introduction-long-short-term-memory-networks-experts/)
-* [Sentimal Analysis using Vader](https://towardsdatascience.com/sentimental-analysis-using-vader-a3415fef7664#:%7E:text=VADER%20).
+* [Sentimental Analysis using Vader](https://towardsdatascience.com/sentimental-analysis-using-vader-a3415fef7664#:%7E:text=VADER%20).
 * [ARIMA Definition](https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-arima.asp)
+* [Introduction to Sentiment Analysis](https://www.lehnerinvestments.com/en/sentiment-analysis-stock-market-sentiment/)
+* [Sentiment Analysis on Stock Market](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8053016/)
+* [Factors to affect Stock Market Movement](https://www.investopedia.com/articles/basics/04/100804.asp)
+* [Introduction to Stacked LSTM](https://www.icst.pku.edu.cn/struct/Projects/multitask_OAD.html)
 
 ### Usage of Third-Party Application
 * [RapidAPI Search](https://rapidapi.com/newscatcher-api-newscatcher-api-default/api/google-news)
