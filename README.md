@@ -1,6 +1,9 @@
 About
 ========================
 [![Bull vs Bear][project-screenshot]](https://www.captiveinternational.com/media/image/shutterstock_1695151366_na_studio.jpg)
+
+<div id="top"></div>
+
 ## Motivation
 Recently, there has been a increase in the interest in stock market, with the abundance of trading platform such as [MooMoo](https://www.moomoo.com/sg/) and [Tiger broker](https://www.tigerbrokers.com.sg/), stock market has been increasingly attractive to consumers. 
 
@@ -10,6 +13,8 @@ This has lead to a boom in the number of retail investors, causing the sudden fl
  * [Tesla($TSLA)](https://finance.yahoo.com/quote/TSLA?p=TSLA&.tsrc=fin-srch)
 
 In addition of a ever-decreasing bank return interest rate, zero interest rate for the entry of investing and high return rate for investment of stock, it have captured the attention of the public.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Problem Definition
 
@@ -23,7 +28,7 @@ Hence, this project aims to predict future movement of a stock through some fact
 We have chosen Apple stock (**AAPL**) as a sample to test our method for analyzing and 
 predicting the movement of the market. 
 
-<div id="top"></div>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Goal and Requirement
 ### Goal
@@ -38,6 +43,8 @@ In order to attain our goal, these criteria have to be met first.
   2. Classification
   3. Neural Network
 * Compare and test the accuracy of the model
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Key Learning
  * Time Series
@@ -119,6 +126,7 @@ These sources are used for the research of this project.
 * [Sentiment Analysis on Stock Market](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8053016/)
 * [Factors to affect Stock Market Movement](https://www.investopedia.com/articles/basics/04/100804.asp)
 * [Introduction to Stacked LSTM](https://www.icst.pku.edu.cn/struct/Projects/multitask_OAD.html)
+* [What is Recurrent Neural Network](https://www.ibm.com/cloud/learn/recurrent-neural-networks)
 
 ### Usage of Third-Party Application
 * [RapidAPI Search](https://rapidapi.com/newscatcher-api-newscatcher-api-default/api/google-news)
