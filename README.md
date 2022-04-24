@@ -141,6 +141,6 @@ These sources are used for the research of this project.
 [project-screenshot]: https://www.captiveinternational.com/media/image/shutterstock_1695151366_na_studio.jpg
 
 ### Contributors
-- `ZlLow` - Website, Time Series, Neural Network, Implementation of models and Setup of Idea
+- `ZlLow` - Website, Time Series, Neural Network, Implementation
 - `Hendyley` - Neural Network, Classification, Data Preparation, Comparison
 - `nicholassy` - Video Editing, Time Series, Data Analysis
