@@ -139,3 +139,8 @@ These sources are used for the research of this project.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [project-screenshot]: https://www.captiveinternational.com/media/image/shutterstock_1695151366_na_studio.jpg
+
+### Contributors
+- `ZlLow` - Website, Time Series, Neural Network, Implementation of models and Setup of Idea
+- `Hendyley` - Neural Network, Classification, Data Preparation, Comparison
+- `nicholassy` - Video Editing, Time Series, Data Analysis
