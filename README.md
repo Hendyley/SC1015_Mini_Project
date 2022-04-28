@@ -142,5 +142,5 @@ These sources are used for the research of this project.
 
 ### Contributors
 - `ZlLow` - Documentation, Time Series, Neural Network, Implementation
-- `Hendyley` - Neural Network, Classification, Data Preparation
+- `Hendyley` - Neural Network, Classification, Data Preparation 
 - `nicholassy` - Video Editing, Time Series, Data Analysis
